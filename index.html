@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   <title>HTML</title>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"></script>
+   <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&family=Space+Mono&display=swap');
+   </style>
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+   <link rel="stylesheet" href="style.css">
+   <script type="module" src="controller.js"></script>
+   <script type="module" src="roundView.js.js"></script>
+   <script type="module" src="model.js"></script>
+   <script type="module" src="allDcPlayerView.js"></script>
+   <script type="module" src="allMarvelPlayerView.js"></script>
+   <script type="module" src="./btnview.js"></script>
+   <script type="module" src="./superhero.js"></script>
+   <script type="module" src="config.js"></script>
+   <script type="module" src="helper.js"></script>
+   <script type="module" src="marvel.js"></script>
+   <script type="module" src="dc.js"></script>
+   <script type="module" src="scoreview.js"></script>
+    <script type="module" src="deatailsView.js"></script>
+   <script type="module" src="winningView.js"></script>
+   
+</head>
+<body>
+   <div class="app">
+      <h3 class="header">Marvel Vs Dc Fight</h3>
+      <div class="scoreDiv">
+         <div class="marvelScoreContainer">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_FE9yTVumW0GAbsVxEERvX9XAaHqa9hcyYw&usqp=CAU" alt="Marvel" class="marvelImg logo">
+            <h2 class="score marvelScore">Score:- 0</h2>
+         </div>
+         <div class="heroLoaderBtn btn">
+            New Game</div>
+         <div class="DcScoreContainer">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfF2AKvnDYuaSrz8VFKK97FDyku_tBMk6Ntg&usqp=CAU" alt="Dc" class="DcImg logo">
+            <h2 class="score dcScore">Score:- 0</h2>
+         </div>
+      </div>
+       
+      <div class="container1 container">
+         
+      </div>
+      <div class="container2 container">
+      </div>
+      <div class="win hidden">
+         <input type="button" class="closeBtn" value="X" name="X">
+         <div class="win2"></div>
+      </div>
+      <div class="round">
+      </div>
+      <div class="overlay hidden"></div>
+   </div>
+</body>
+
+</html> 
